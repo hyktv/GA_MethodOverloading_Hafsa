@@ -22,7 +22,7 @@ namespace GA_MethodOverloading_Hafsa
 
         public double Add(double a, double b, double c)
         {
-            //this add method takes 2 strings parameters and concatenates them
+            //this add method takes 3 strings parameters and concatenates them
             return a + b + c;
         }//triple double add
 
@@ -40,7 +40,7 @@ namespace GA_MethodOverloading_Hafsa
 
         public double Multiply(double a, double b, double c)
         {
-            //this multiply method takes 2 strings parameters and multiplies them
+            //this multiply method takes 3 strings parameters and multiplies them
             return a * b * c;
         }//triple double multiply
 
@@ -58,7 +58,7 @@ namespace GA_MethodOverloading_Hafsa
 
         public double Subtract(double a, double b, double c)
         {
-            //this subtract method takes 2 strings parameters and subtracts them
+            //this subtract method takes 3 strings parameters and subtracts them
             return a - b - c;
         }//triple double subtract
 
@@ -71,11 +71,9 @@ namespace GA_MethodOverloading_Hafsa
         public double Divide(double a, double b)
         {
             //this divide method takes 2 double parameters and returns their sum as a double
-            return a / b;
-
             if (b != 0)
             {
-
+                return a / b;
             }
             else
             {
